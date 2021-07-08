@@ -37,9 +37,9 @@ public class VndFwkDetect
 
     static {
         try {
-            System.loadLibrary("vndfwk_detect_jni.qti");
+            System.loadLibrary("vndfwk_detect_jni.qti_system");
         } catch (Exception ex) {
-            Log.d(TAG, "Cannot load libvndfwk_detect_jni.qti shared library!!!");
+            Log.d(TAG, "Cannot load libvndfwk_detect_jni.qti_system shared library!!!");
             ex.printStackTrace();
         }
     }
